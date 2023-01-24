@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Calculadora versão 1.0</title>
+</head>
+<body>
+	<div class="container">
+	  <main>
+	  	<div class="visor">0</div>
+
+	  	<div class="grade-teclas">
+        <button class="c tecla" onclick="limpa()">C</button>
+        <button class="tecla" onclick="porcentagem()">%</button>
+        <button class="tecla" onclick="adicao()">+</button>
+        <button class="tecla" onclick="subtracao()">-</button>
+        <button class="tecla" onclick="processaTecla('7')">7</button>
+        <button class="tecla" onclick="processaTecla('8')">8</button>
+        <button class="tecla" onclick="processaTecla('9')">9</button>
+        <button class="tecla" onclick="multiplica()">X</button>
+        <button class="tecla" onclick="processaTecla('4')">4</button>
+        <button class="tecla" onclick="processaTecla('5')">5</button>
+        <button class="tecla" onclick="processaTecla('6')">6</button>
+        <button class="tecla" onclick="divisao()">/</button>
+        <button class="tecla" onclick="processaTecla('1')">1</button>
+        <button class="tecla" onclick="processaTecla('2')">2</button>
+        <button class="tecla" onclick="processaTecla('3')">3</button>
+        <button class="tecla" onclick="processaTecla('.')">.</button>
+        <button class="tecla" onclick="elevado2()">x²</button>
+        <button class="tecla" onclick="processaTecla('0')">0</button>
+        <button class="tecla" onclick="raizQuadrada()">&#8730;</button>
+        <button class="igual tecla" onclick="calcular()">=</button>
+	  	</div>
+	  </main>
+	  
+	  <footer>
+	  	&copy; <cite>by:</cite><span>&nbsp;&nbsp;Ely Carvalho&nbsp;&nbsp; version 1.0</span>
+	  </footer>
+  </div>
+
+
+  <script src="js/script.js"></script>
+</body>
+</html>

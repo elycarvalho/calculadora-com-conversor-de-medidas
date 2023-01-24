@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Roboto', arial, sans-serif;
+}
+
+main{
+	margin: 20px auto;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+	border: 2px solid darkgray;
+	width: 330px;
+}
+
+.visor{
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-size: 1.7rem;
+	padding: 15px 6px;
+	width: 290px;
+	height: 65px;
+    text-align: right;
+    border: 2px solid darkgray;
+}
+
+.grade-teclas{
+	height: 380px;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+}
+
+.tecla{
+	font-size: 2rem;
+	width: 65px;
+   margin: 5px;
+}
+
+footer{
+	text-align: center;
+}
