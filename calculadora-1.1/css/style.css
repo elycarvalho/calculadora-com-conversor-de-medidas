@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Roboto', arial, sans-serif;
+}
+
+main{
+	margin: 20px auto;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+	border: 2px solid #728C82;
+	width: 330px;
+	background-image: radial-gradient(#151C19, #293430);
+	border-radius: 8px;
+	box-shadow: 2px 2px 5px;
+}
+
+.visor{
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-size: 1.7rem;
+	padding: 15px 6px;
+	width: 290px;
+	height: 65px;
+    text-align: right;
+    border: 3px solid #69959A;
+    border-radius: 5px;
+    background-color: #B0E5EC;
+}
+
+.grade-teclas{
+	height: 380px;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+}
+
+.tecla{
+	font-size: 2rem;
+	width: 65px;
+   margin: 5px;
+   border-radius: 5px;
+}
+
+footer{
+	text-align: center;
+}
+
+.igual{
+	width: 140px;
+	grid-column-end: span 2;
+	background-color: #2AA7D6;
+}
+
+.cem, .mil {
+	font-size: 1.2rem;
+}
+
+.clear{
+	background-color: #D4410B;
+}
+
+.funcoes{
+	background-color: #DCEC37;
+}
+
+.operacoes{
+	background-color: #CBF3E3;
+}
+
+.numero{
+	background-image: radial-gradient(#BDE0EA, #D9EDF3);
+}
