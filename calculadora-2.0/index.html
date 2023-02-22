@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/tela-conversoes.css">
+	<title>Calculadora versão 2.0</title>
+</head>
+<body>
+	<div class="container">
+	  <main>
+	  	<div class="visor">0</div>
+
+	  	<div class="grade-teclas">
+        <button class="c tecla clear" onclick="limpa()">C</button>
+        <button class="tecla funcoes" onclick="porcentagem()">%</button>
+        <button class="tecla operacoes" onclick="adicao()">+</button>
+        <button class="tecla operacoes" onclick="subtracao()">-</button>
+        <button class="tecla numero" onclick="processaTecla('7')">7</button>
+        <button class="tecla numero" onclick="processaTecla('8')">8</button>
+        <button class="tecla numero" onclick="processaTecla('9')">9</button>
+        <button class="tecla operacoes" onclick="multiplica()">X</button>
+        <button class="tecla numero" onclick="processaTecla('4')">4</button>
+        <button class="tecla numero" onclick="processaTecla('5')">5</button>
+        <button class="tecla numero" onclick="processaTecla('6')">6</button>
+        <button class="tecla operacoes" onclick="divisao()">/</button>
+        <button class="tecla numero" onclick="processaTecla('1')">1</button>
+        <button class="tecla numero" onclick="processaTecla('2')">2</button>
+        <button class="tecla numero" onclick="processaTecla('3')">3</button>
+        <button class="tecla numero" onclick="processaTecla('.')">.</button>
+        <button class="tecla funcoes" onclick="elevado2()">x²</button>
+        <button class="tecla numero" onclick="processaTecla('0')">0</button>
+        <button class="tecla funcoes" onclick="raizQuadrada()">&#8730;</button>
+        <button class="tecla funcoes" onclick="raizCubica()">&#8731;</button>
+        <button class="cem tecla funcoes" onclick="vezesCem()">X100</button>
+        <button class="mil tecla funcoes" onclick="vezesMil()">X1000</button>
+        <button class="igual tecla" onclick="calcular()">=</button>
+        <button class="tecla funcoes" onclick="pi()">Pi</button>
+        <button class="tecla btn-conversoes" onclick="menuConversoes()">Conversões =></button>
+	  	</div>
+
+        <div class="menu-conversoes">
+            <div class="visor">0</div>
+            <input type="number" class="medida1">
+            <input type="number" class="medida2">
+
+            <button class="btn-conv">Pés &#8644; metros</button>
+            <button class="btn-conv">Milhas &#8644; quilometros</button>
+            <button class="btn-conv">Polegadas &#8644; centimetros</button>
+            <button class="btn-conv">Onça &#8644; quilos</button>
+            <button class="btn-conv">Fahrenheit &#8644; Celsius</button>
+            <button class="btn-voltar" onclick="fechaMenuConv()">&#8882;&nbsp;Voltar</button>
+        </div>
+	  </main>
+	  
+	  <footer>
+	  	&copy; <cite>by:</cite><span>&nbsp;&nbsp;Ely Carvalho&nbsp;&nbsp; version 2.0</span>
+	  </footer>
+  </div>
+
+
+  <script src="js/script.js"></script>
+  <script src="js/conversoes.js"></script>
+</body>
+</html>

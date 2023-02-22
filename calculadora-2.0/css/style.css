@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Roboto', arial, sans-serif;
+}
+
+main{
+	position: relative;
+	margin: 20px auto;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+	border: 2px solid #465E55;
+	width: 330px;
+	height: 500px;
+	background-image: radial-gradient(#014D68, #151C19);
+	border-radius: 8px;
+	box-shadow: 2px 2px 5px;
+}
+
+.visor{
+	margin: 10px 0;
+	font-weight: bold;
+	font-size: 1.7rem;
+	padding: 15px 6px;
+	width: 290px;
+	height: 65px;
+    text-align: right;
+    border: 3px solid #69959A;
+    border-radius: 5px;
+    background-color: #B0E5EC;
+}
+
+.grade-teclas{
+	height: 380px;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+}
+
+.tecla{
+	font-size: 2rem;
+	width: 65px;
+   margin: 5px;
+   border-radius: 5px;
+}
+
+footer{
+	text-align: center;
+}
+
+.igual{
+	width: 140px;
+	grid-column-end: span 2;
+	background-color: #2AA7D6;
+}
+
+.cem, .mil {
+	font-size: 1.2rem;
+}
+
+.clear{
+	background-color: #D4410B;
+}
+
+.funcoes{
+	background-color: #DCEC37;
+}
+
+.operacoes{
+	background-color: #CBF3E3;
+}
+
+.numero{
+	background-image: radial-gradient(#BDE0EA, #D9EDF3);
+}
+
+.btn-conversoes{
+	grid-column-end: span 3;
+	font-size: 1.2rem;
+    width: 215px;
+}
+
+.menu-conversoes{
+	position: absolute;
+	top: -1px;
+	background-image: radial-gradient(#014D68, #151C19);
+	border: 2px solid #465E55;
+	border-radius: 10px;
+	height: 500px;
+	width: 330px;
+	display: flex;
+	flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.btn-conv{
+	height: 35px;
+	font-size: 1.4rem;
+	background-color: #F9D461;
+	border-radius: 10px;
+	border: 1px solid darkgreen;
+}
+
+.btn-voltar{
+	color: #fff;
+	height: 40px;
+	font-size: 1.3rem;
+	background-color: #C3600D;
+	border-radius: 10px;
+}
