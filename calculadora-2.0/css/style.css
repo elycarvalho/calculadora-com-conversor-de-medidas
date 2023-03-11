@@ -17,13 +17,13 @@ main{
     align-items: center;
 	border: 2px solid #465E55;
 	width: 330px;
-	height: 500px;
+	height: 510px;
 	background-image: radial-gradient(#014D68, #151C19);
 	border-radius: 8px;
-	box-shadow: 2px 2px 5px;
+	box-shadow: 3px 3px 5px;
 }
 
-.visor{
+.visor, .visor-conv{
 	margin: 10px 0;
 	font-weight: bold;
 	font-size: 1.7rem;
@@ -50,6 +50,7 @@ main{
 }
 
 footer{
+	margin-top: 30px;
 	text-align: center;
 }
 
@@ -91,26 +92,51 @@ footer{
 	background-image: radial-gradient(#014D68, #151C19);
 	border: 2px solid #465E55;
 	border-radius: 10px;
-	height: 500px;
+	height: 510px;
 	width: 330px;
 	display: flex;
+	align-items: center;
 	flex-direction: column;
-    justify-content: space-around;
-    padding: 15px;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+.grade-botoes{
+	display: grid;
+	row-gap: 10px;
+	column-gap: 5px;
+	grid-template-columns: auto auto;
+}
+
+.menu-conversoes h4{
+	font-weight: 100;
+	color: #fff;
+}
+
+.menu-conversoes input{
+    width: 90%;
+    font-weight: bold;
+    font-size: 1.1rem;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
 }
 
 .btn-conv{
-	height: 35px;
-	font-size: 1.4rem;
+	height: 30px;
+	width: 140px;
+	font-size: 1.1rem;
 	background-color: #F9D461;
-	border-radius: 10px;
+	border-radius: 5px;
 	border: 1px solid darkgreen;
 }
 
 .btn-voltar{
+	width: 90%;
 	color: #fff;
-	height: 40px;
-	font-size: 1.3rem;
+	height: 35px;
+	font-size: 1.2rem;
 	background-color: #C3600D;
-	border-radius: 10px;
+	border: 2px solid #9C4E0D;
+	border-radius: 5px;
 }
