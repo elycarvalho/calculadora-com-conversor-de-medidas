@@ -32,7 +32,7 @@ function polegadasCm(ordem) {
    }
    if(ordem === 'cp') {
    	  convertido = medida.value * 0.393701
-   	  visorConv.innerHTML = convertido.toFixed(8) + ' polegadas'
+   	  visorConv.innerHTML = convertido.toFixed(8) + ' poleg.'
    }
 }
 
@@ -42,7 +42,7 @@ function librasKg(ordem) {
    	  visorConv.innerHTML = convertido.toFixed(8) + ' libras'
    }
    if(ordem === 'lk') {
-   	  convertido = medida.value * 0.0283495
+   	  convertido = medida.value * 0.453592
    	  visorConv.innerHTML = convertido.toFixed(8) + ' kg'
    }
 }
